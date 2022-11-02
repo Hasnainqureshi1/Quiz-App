@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<body>
+    <div class=" ">
+          
+        <!-- start button  -->
+        <div class="start_btn active " id = "starts_btn" >
+            <Button id ="start">Start Now</Button>
+          
+          </div>
+          <!-- info box  -->
+          <div class="info_box" id = "info_boxs">
+            <div class="info_title">
+                <h1>Some Rules of the quizes</h1>
+            </div>
+            <div class="info_details">
+                <div class="info_list">
+                    <div class="info">1. you have only <span>15 seconds </span>for each question</div>
+                    <div class="info">2. Once you select the answer, you can't reseletect it</div>
+                    <div class="info">3. you can't select the option once time goes off</div>
+                    <div class="info">4. you can't exit from quiz while you start playing</div>
+                    <div class="info">6. you will get points on the basis of correct answers</div>
+                </div>
+                <div class="buttons">
+                    <button class="quit" id = "quiz_btn">Quit</button>
+                    <button class="continue" id = "continue_btn">Continue</button>
+                </div>
+            </div>
+          </div>
+
+          <!-- Quiz box  -->
+
+          <div class="quiz_box" id ="quiz_box">
+            <header>
+                <div class="title">Quiz App</div>
+                <div class="timer">
+                    <div class="timer_text">Time Left:</div>
+                    <div class="timer_sec">15</div>
+                </div>
+                </header>
+                <div class="quiz_time_slide"></div>
+                <div class="main_quiz">
+                <div class="quiz_quest">
+                 
+                </div>
+                <div class="quiz_options" id = "quiz_options">
+                   
+                    </div>
+                </div>
+                    <!-- quiz box footer -->
+                  <footer class="quiz_footer_que">
+                    <div class="total_que" id = "total_que">
+                       
+                    </div>
+                    <button class="next_que" id = "next_btn">Next Que</button>
+                  </footer>
+                    
+                </div>
+
+        <!-- result box  -->
+                <div class="result_box" id = "result">
+                    <div class="taj">
+                        <i>♕</i>
+                    </div>
+                    <div class="result-info">
+                    
+                    </div>
+                    <div class="result-buttons">
+                        <button class="replay">Next Try</button>
+                        <button class="quit_quiz">Quit Quiz</button>
+                    </div>
+
+        </div>
+           
+          </div>
+          <script type="module"   src="./script.mjs"></script>
+</body>
+</html>
+
+<script type= "module" src="./questions.mjs"></script>
