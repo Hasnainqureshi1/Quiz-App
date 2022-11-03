@@ -81,9 +81,13 @@
  .buttons button{
     font-size: 3vw;    }
     
-}
+
 .buttons{
     
     bottom: -14px;
+}
+    .result_box.active {
+        width:80vw;
+    }
 
 }
