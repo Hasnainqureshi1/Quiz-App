@@ -69,6 +69,7 @@
     .info_box.active {
         width: 90vw;
         height: 75vw;
+        padding: 12px;
     }
     .info_title{
     font-size:2vw;
