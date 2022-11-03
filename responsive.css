@@ -41,11 +41,7 @@
     .info_details {
     font-size: 4vw;
     }
-    .info_box {
-        position: absolute;
-        top: 50%;
-        left: 55%;
-    }    
+    
     .quiz_box{
         width: 90vw;
     }
